@@ -13,7 +13,8 @@
     "clean": "rm -rf lib && rm -rf module && rm -rf deno_lib",
     "doc": "typedoc src/index.ts",
     "build-deno": "denoify",
-    "release": "yarn build && standard-version"
+    "release": "yarn build && standard-version",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [
     "js",
